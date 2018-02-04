@@ -1,0 +1,55 @@
+.App {
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+ width: 62%;
+height: auto;
+margin: auto;
+
+
+}
+
+.item{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border-bottom: 1px solid gray;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.leftSideDate{
+  text-align: center;
+flex: 20%;
+color: gray;
+ font-family: sans-serif;
+ font-size: 10px;
+ margin-top: 40px;
+}
+
+.text{
+  flex: 50%;
+  height: 10%;
+  width: 60%;
+}
+
+.rightSidePic{
+  flex:30%;
+  position: relative;
+  left:20px;
+}
+
+.imageItself{
+  width: 200px;
+  height:150px;
+
+   margin-top: 40px;
+
+
+}
+.author{
+  font-family: sans-serif;
+  font-size: 10px;
+  color: gray;
+}
