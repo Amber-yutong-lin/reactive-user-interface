@@ -1,0 +1,21 @@
+.button{
+  width: 195px;
+  height:60px;
+  font-size: 17px;
+  display: inline-block;
+  background-color: white;
+  color:#049B9B;
+  margin: 10px;
+  margin-bottom: 28px;
+  padding:0px;
+  border:1.5px solid #049B9B;
+  text-align: center;
+}
+
+
+.button:active{
+  background-color: #049B9B;
+  color: white;
+
+
+}
