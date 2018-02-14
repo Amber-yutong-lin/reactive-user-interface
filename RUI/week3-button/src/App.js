@@ -11,17 +11,17 @@ class App extends Component {
 };
   this.buttonWasClicked = this.buttonWasClicked.bind(this);
   }
-    buttonWasClicked(currentChoice){
+    buttonWasClicked(label){
       this.setState({
-      myChoice: currentChoice
+      myChoice: label
   });
 }
   render() {
     return (
       <div className='App'>
-<Button label='First Button' currentChoice="First" onClick={this.buttonWasClicked} />
-<Button label='Second Button' currentChoice="Second" onClick={this.buttonWasClicked} />
-<Button label='Third Button' currentChoice="Third" onClick={this.buttonWasClicked} />
+<Button label='First' myChoice = {this.state.myChoice === "First"} onClick={this.buttonWasClicked}/>
+<Button label='Second' myChoice = {this.state.myChoice === "Second"} onClick={this.buttonWasClicked} />
+<Button label='Third' myChoice = {this.state.myChoice === "Third"} onClick={this.buttonWasClicked} />
 <div className = 'box'> <DisplayingBox display={this.state.myChoice}/></div>
       </div>
     );

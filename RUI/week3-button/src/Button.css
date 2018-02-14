@@ -10,12 +10,12 @@
   padding:0px;
   border:1.5px solid #049B9B;
   text-align: center;
+  outline: none;
+  cursor: pointer;
 }
 
 
-.button:active{
+.myChoice{
   background-color: #049B9B;
   color: white;
-
-
 }

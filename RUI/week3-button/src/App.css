@@ -1,4 +1,7 @@
 .App{
   width:auto;
   height: auto;
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
 }

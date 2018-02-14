@@ -7,12 +7,13 @@ class Button extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
     handleClick(MyChoice){
-      this.props.onClick(this.props.currentChoice)
+      this.props.onClick(this.props.label)
   }
   render() {
+    const newClass = this.props.myChoice ? 'myChoice': 'notMyChoice';
     return (
-      <div className="button">
-<p onClick={this.handleClick}>{this.props.currentChoice}</p>
+      <div>
+<button className = {'button ' + newClass} onClick={this.handleClick}>{this.props.label}</button>
       </div>
     );
   }
