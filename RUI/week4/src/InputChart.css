@@ -1,0 +1,19 @@
+.InputChart{
+  font-family: Helvetica;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+input {
+  font-family: Helvetica;
+  font-size: 23px;
+  color: #5a5a5a;
+  border: none;
+  border-bottom: solid 1.5px;
+  border-bottom-color: lightgrey;
+  margin-bottom: 30px;
+  width: 340px;
+  outline: none;
+}

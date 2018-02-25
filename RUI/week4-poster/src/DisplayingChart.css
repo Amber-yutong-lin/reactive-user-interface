@@ -1,0 +1,33 @@
+
+ .display1 {
+background-color: black;
+  font-family: Helvetica;
+  font-size: 90px;
+  font-weight: 700;
+  padding-bottom: 0;
+  line-height: 100px;
+  margin: 10px;
+  margin-bottom:100px;
+  text-transform: uppercase;
+}
+
+.display2 {
+  background-color: black;
+  font-family: Courier;
+  font-size: 16px;
+  font-weight: 50;
+  margin: 10px;
+  border: 10px;
+
+}
+
+.display3 {
+  background-color: black;
+font-family: Courier;
+  font-size: 16px;
+  font-weight: 50;
+  margin: 10px;
+
+  border: 10px;
+
+}

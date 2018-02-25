@@ -9,6 +9,7 @@ class App extends Component {
   this.state = {
   myChoice: 'No',
 };
+
   this.buttonWasClicked = this.buttonWasClicked.bind(this);
   }
     buttonWasClicked(label){
