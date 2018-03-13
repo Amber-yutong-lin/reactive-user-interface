@@ -1,0 +1,114 @@
+
+.AddContactBox{
+    display: flex;
+}
+.AddContactBox .starredIcon{
+    width: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.AddContactBox .starredIcon img{
+  height: 40px;
+  width: 40px;
+}
+.AddContactBox .info{
+    flex: 1;
+}
+.AddContactBox .info .infoLebal{
+
+    margin-bottom: 8px;
+    border-bottom: 1px solid #cccccc;
+}
+.AddContactBox .info .infoField{
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.AddContactBox .info input{
+    outline: 0;
+    border: none;
+}
+.AddContactBox .portrait{
+    width: 120px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+}
+.AddContactBox .uploadBox{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #cccccc;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.addButton{
+    background-color: #a2d39c;
+    display: inline-block;
+    color: #009a00;
+    padding: 3px;
+}
+.tagBtn{
+    margin-left: 10px;
+    background-color: #e1e1e1;
+    display: inline-block;
+    padding:1px  3px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 12px;
+    float: left;
+
+}
+.tagResult{
+    margin-left: 10px;
+    background-color: #e1e1e1;
+    display: inline-block;
+    padding: 1px 3px;
+    min-width: 50px;
+    height: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+}
+
+.dropdown-wrapp{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.dropdown-menu{
+    position: absolute;
+    margin: 0;
+    padding:0;
+    left: 10px;
+    top:20px;
+    outline: none;
+    list-style-type: none;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.dropdown-menu1{
+    left:60px;
+}
+.dropdown-menu-item{
+    padding: 5px 12px;
+    margin: 0;
+    clear: both;
+    font-size: 14px;
+    color: gray;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    line-height: 22px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.infoFieldSelected{
+    background-color: #009a00;
+}

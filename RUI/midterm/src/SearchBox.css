@@ -1,0 +1,26 @@
+.searchBox{
+    margin-left: 10px;
+    background: #e1e1e1;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.searchBox input{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    height:30px;
+    background: #e1e1e1;
+}
+.searchIcon{
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    margin-right: 5px;
+    background: url(images/search_icon.png) no-repeat left top;
+    background-size: 100%;
+}
