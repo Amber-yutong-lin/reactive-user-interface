@@ -72,11 +72,11 @@ class AddContactBox extends Component {
     }
 
     render() {
-        let {username, company, tag, tag1, phone, other, rselectArr, isShowSelect, otherField, starred, isShowSelect1} = this.state;
+        let {username, company, tag, tag1, phone, other, rselectArr, isShowSelect, otherField, isShowSelect1} = this.state;
         return (
             <div className="AddContactBox">
                 <div className="starredIcon">
-                    <img src={staricon} />
+                    <img src={staricon} alt="alt"/>
                 </div>
                 <div className="info">
                     <div className="infoLebal">
