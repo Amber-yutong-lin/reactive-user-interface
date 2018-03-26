@@ -1,0 +1,22 @@
+.mailList{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+.mailItem{
+    font-size: 14px;
+    padding: 3px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.mailLeft,.mailRight{
+    float: left;
+}
+.mailLeft{
+    width: 60%;
+    color: #646464;
+}
+.mailRight{
+    width: 40%;
+    color: #9b9b9b;
+    /*margin-right: 10px;*/
+}

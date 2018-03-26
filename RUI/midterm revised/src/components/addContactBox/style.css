@@ -1,0 +1,92 @@
+.AddContactBox{
+    display: flex;
+}
+.AddContactBox .starredIcon{
+    width: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.AddContactBox .info{
+    flex: 1;
+}
+.AddContactBox .info .infoLebal{
+    /*padding-bottom: 8px;*/
+    margin-bottom: 8px;
+    border-bottom: 1px solid #cccccc;
+}
+.AddContactBox .info .infoField{
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.AddContactBox .info input{
+    outline: 0;
+    border: none;
+}
+.AddContactBox .portrait{
+    width: 120px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+}
+.AddContactBox .uploadBox{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #cccccc;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.addButton{
+    background-color: #a2d39c;
+    display: inline-block;
+    color: #009a00;
+    padding: 3px;
+}
+.tagBtn{
+    margin-left: 10px;
+    background-color: #e1e1e1;
+    display: inline-block;
+    padding: 0 3px;
+    font-weight: bold;
+}
+.dropdown-wrapp{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    margin: 0;
+    padding:0;
+    left: 10px;
+    outline: none;
+    list-style-type: none;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-clip: padding-box;
+}
+.dropdown-menu-item{
+    padding: 5px 12px;
+    margin: 0;
+    clear: both;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.65);
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    line-height: 22px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.infoFieldSelected{
+    background-color: #009a00;
+}

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import SearchBox from './SearchBox';
-import AddContactBox from './AddContactBox';
-import StarredBox from './StarredBox';
-import ContactList from './ContactList';
+import SearchBox from './components/searchBox';
+import AddContactBox from './components/addContactBox';
+import StarredBox from './components/starredBox';
+import MailList from './components/mailList';
 import './App.css';
 class App extends Component {
     constructor(props) {
