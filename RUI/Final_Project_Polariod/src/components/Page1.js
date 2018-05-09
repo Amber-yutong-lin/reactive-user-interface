@@ -1,5 +1,4 @@
 
-//import ocean from './ocean.mp4';
 import page1 from './page1.gif'
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
@@ -26,8 +25,5 @@ class Page1 extends Component {
     }
 }
 
-/*<video className="background-video" loop autoPlay>
-      <source src={ocean} type="video/mp4" />
-</video>*/
 
 export default Page1;
