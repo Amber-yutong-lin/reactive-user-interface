@@ -1,0 +1,17 @@
+.wrapper{
+  display: flex;
+}
+
+header{
+  padding: 20px;
+}
+
+aside{
+  flex:0 0 200px;
+}
+
+main{
+  background-color: green;
+  flex:1;
+  padding:20px;
+}

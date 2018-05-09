@@ -74,7 +74,7 @@ class App extends Component {
                     <SearchBox  handleFilter={this.handleFilter.bind(this)} />
                     <AddContactBox handleListData={this.handleListData.bind(this)} handleStarredData={this.handleStarredData.bind(this)} />
                     <StarredBox starredData={starredData} />
-                    <MailList listData={filterList} filterWords={filterWords} />
+                    <ContactList listData={filterList} filterWords={filterWords} />
                 </div>
             </div>
         );
