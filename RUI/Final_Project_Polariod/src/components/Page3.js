@@ -43,7 +43,7 @@ class Page3 extends Component {
                     {imgId:2,imgUrl:"",x:0,y:0,zIndex:1},
                     {imgId:3,imgUrl:"",x:0,y:0,zIndex:2},
                     {imgId:4,imgUrl:"",x:0,y:0,zIndex:3}
-                    
+
                 ]
             });
             this.setState({
@@ -116,7 +116,7 @@ class Page3 extends Component {
     handleStart(){
         this.handleDraggableFn({state:0,ref:this.children.ref});
     }
-    handleDraggableFn(data){//0  start 1 stop
+    handleDraggableFn(data){
         let {state,DraggableData, dataId} = data;
 
         if(state === 0){
@@ -228,5 +228,7 @@ class Page3 extends Component {
         );
     }
 }
+
+
 
 export default Page3;
